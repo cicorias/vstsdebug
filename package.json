@@ -1,0 +1,26 @@
+{
+  "name": "vstsdebug",
+  "version": "0.0.1",
+  "description": "VSTS Build Extension for Debugging",
+  "main": "index.js",
+  "scripts": {
+    "create-vsix": "export LC_CTYPE=C && export LANG=C && tfx extension create --manifest-globs vss-extension.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicorias/vsts-debug.git"
+  },
+  "keywords": [
+    "vsts",
+    "debug"
+  ],
+  "author": "Shawn Cicoria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cicorias/vsts-debug/issues"
+  },
+  "homepage": "https://github.com/cicorias/vsts-debug#readme",
+  "dependencies": {
+    "vsts-task-lib": "^0.7.1"
+  }
+}
